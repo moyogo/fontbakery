@@ -22,6 +22,7 @@ _WEIGHT_NAMES = {
     r"Bla?c?k|wt900": "Black",
     r"Hea?v?y?|wt900": "Heavy",
     r"Ext?r?a?Bla?c?k|wt1000": "ExtraBlack"
+    r"Ult?r?a?Bla?c?k|wt1000": "UltraBlack"
 }
 _WIDTH_NAMES = {
     r"Ult?r?a?Co?n?d?e?n?s?e?d": "UltraCondensed",
