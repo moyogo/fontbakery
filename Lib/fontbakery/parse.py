@@ -6,7 +6,7 @@ from collections import namedtuple
 __all__ = ["style_parse", "instance_parse"]
 
 
-RIBBI_STYLES = ["Regular", "Italic", "Bold", "Bold Italic"] 
+RIBBI_STYLES = ["Regular", "Italic", "Bold", "Bold Italic"]
 
 _WEIGHT_NAMES = {
     r"Th?i?n|wt100": "Thin",
@@ -34,7 +34,7 @@ _WIDTH_NAMES = {
     r"Ult?r?a?Exp?a?n?d?e?d": "UltraExpanded",
 }
 _ITALIC_NAMES = {
-    r"Ita?l?i?c?|Obli?q?u?e?": "Italic" 
+    r"Ita?l?i?c?|Obli?q?u?e?": "Italic"
 }
 _WEIGHT_VALUES = {
     "Thin": {"usWeightClass": 250, "fvar": 100.0},
