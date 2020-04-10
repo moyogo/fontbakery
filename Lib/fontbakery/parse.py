@@ -11,13 +11,16 @@ RIBBI_STYLES = ["Regular", "Italic", "Bold", "Bold Italic"]
 _WEIGHT_NAMES = {
     r"Th?i?n|wt100": "Thin",
     r"Ext?r?a?Li?g?h?t|wt200": "ExtraLight",
+    r"Ult?r?a?Li?g?h?t|wt200": "UltraLight",
     r"Li?g?h?t|wt300": "Light",
     r"Re?gu?l?a?r?|wt400": "Regular",
     r"Me?di?u?m?|wt500":"Medium",
     r"Se?m?i?Bo?l?d|wt600": "SemiBold",
     r"Bo?l?d|wt700": "Bold",
     r"Ext?r?a?Bo?l?d|wt800": "ExtraBold",
+    r"Ult?r?a?Bo?l?d|wt800": "UltraBold",
     r"Bla?c?k|wt900": "Black",
+    r"Hea?v?y?|wt900": "Heavy",
     r"Ext?r?a?Bla?c?k|wt1000": "ExtraBlack"
 }
 _WIDTH_NAMES = {
